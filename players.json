@@ -1208,5 +1208,20 @@
         "d": "2026-10-31"
       }
     ]
+  },
+  {
+    "name": "v1kazzz",
+    "tiers": {
+      "NETHERITEPOT": "LT5"
+    },
+    "dh": "3ab3525ad0df4955970290aae69d623448a1ec3ab71f3f882f0491ee13b614ab",
+    "history": [
+      {
+        "m": "NETHERITEPOT",
+        "f": null,
+        "t": "LT5",
+        "d": "2026-10-31"
+      }
+    ]
   }
 ]
