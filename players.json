@@ -363,7 +363,8 @@
       "DIAMONDPOT": "LT3",
       "NETHERITEPOT": "LT3",
       "BEAST": "RLT2",
-      "AXE": "LT3"
+      "AXE": "LT3",
+      "ROCKETMACE": "LT5"
     },
     "history": [
       {
@@ -401,13 +402,20 @@
         "f": null,
         "t": "LT3",
         "d": "2026-10-20"
+      },
+      {
+        "m": "ROCKETMACE",
+        "f": null,
+        "t": "LT5",
+        "d": "2026-10-31"
       }
     ],
     "titles": [
       "ss",
       "seniortester",
       "tester"
-    ]
+    ],
+    "dh": "30a74e847898716838df907348f1e02536fc268d7491c063005b757f61b82508"
   },
   {
     "name": "shamblBrosX",
