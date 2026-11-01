@@ -1369,5 +1369,20 @@
         "d": "2026-11-01"
       }
     ]
+  },
+  {
+    "name": "shintaro_chan",
+    "tiers": {
+      "MACE": "LT4"
+    },
+    "dh": "0a343866c064c9120bdd6e21fc5767639d9c7b8f89f0b7abafb550e2a492e9d0",
+    "history": [
+      {
+        "m": "MACE",
+        "f": null,
+        "t": "LT4",
+        "d": "2026-11-01"
+      }
+    ]
   }
 ]
