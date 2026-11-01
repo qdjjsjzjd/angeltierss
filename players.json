@@ -380,7 +380,8 @@
       "BEAST": "RLT2",
       "AXE": "LT3",
       "ROCKETMACE": "LT3",
-      "UHC": "LT3"
+      "UHC": "LT3",
+      "CARTPVP": "HT5"
     },
     "history": [
       {
@@ -435,6 +436,12 @@
         "m": "UHC",
         "f": null,
         "t": "LT3",
+        "d": "2026-11-01"
+      },
+      {
+        "m": "CARTPVP",
+        "f": null,
+        "t": "HT5",
         "d": "2026-11-01"
       }
     ],
