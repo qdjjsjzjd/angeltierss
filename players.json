@@ -1307,7 +1307,8 @@
     "name": "tyffa_",
     "tiers": {
       "BEAST": "LT3",
-      "UHC": "HT4"
+      "UHC": "HT4",
+      "NETHERITEPOT": "LT3"
     },
     "dh": "1e47f82eb68457d1e75f0532072dcf14774b04e12c3cf3af8c0a507d4f1bc351",
     "history": [
@@ -1321,6 +1322,12 @@
         "m": "UHC",
         "f": null,
         "t": "HT4",
+        "d": "2026-11-01"
+      },
+      {
+        "m": "NETHERITEPOT",
+        "f": null,
+        "t": "LT3",
         "d": "2026-11-01"
       }
     ]
