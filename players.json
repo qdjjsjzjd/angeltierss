@@ -1115,7 +1115,8 @@
     "tiers": {
       "BEAST": "LT3",
       "MACE": "LT3",
-      "OP": "LT3"
+      "OP": "LT3",
+      "ROCKETMACE": "HT4"
     },
     "history": [
       {
@@ -1135,8 +1136,15 @@
         "f": null,
         "t": "LT3",
         "d": "2026-10-31"
+      },
+      {
+        "m": "ROCKETMACE",
+        "f": null,
+        "t": "HT4",
+        "d": "2026-11-01"
       }
-    ]
+    ],
+    "dh": "43612b0b91fb472ee5b0a833da94a88769a643cb7a2d0d82867b15259a06323b"
   },
   {
     "name": "DonT__KnoW",
