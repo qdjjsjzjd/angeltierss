@@ -1244,5 +1244,20 @@
         "d": "2026-11-01"
       }
     ]
+  },
+  {
+    "name": "juixyaa",
+    "tiers": {
+      "ROCKETMACE": "LT3"
+    },
+    "dh": "487ac3ddb9e0754448d5b35a010198698da83b83b12aa9650f8ff016a211cb82",
+    "history": [
+      {
+        "m": "ROCKETMACE",
+        "f": null,
+        "t": "LT3",
+        "d": "2026-11-01"
+      }
+    ]
   }
 ]
