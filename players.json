@@ -1131,7 +1131,8 @@
       "BEAST": "LT3",
       "MACE": "LT3",
       "OP": "LT3",
-      "UHC": "LT3"
+      "UHC": "LT3",
+      "NETHERSMP": "LT3"
     },
     "history": [
       {
@@ -1154,6 +1155,12 @@
       },
       {
         "m": "UHC",
+        "f": null,
+        "t": "LT3",
+        "d": "2026-11-01"
+      },
+      {
+        "m": "NETHERSMP",
         "f": null,
         "t": "LT3",
         "d": "2026-11-01"
