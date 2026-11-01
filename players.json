@@ -496,7 +496,8 @@
       "CRYSTALPVP": "HT4",
       "MACE": "LT3",
       "ROCKETMACE": "HT3",
-      "OP": "LT3"
+      "OP": "LT3",
+      "DIAMONDSMP": "LT4"
     },
     "history": [
       {
@@ -540,6 +541,12 @@
         "f": null,
         "t": "HT3",
         "d": "2026-10-31"
+      },
+      {
+        "m": "DIAMONDSMP",
+        "f": null,
+        "t": "LT4",
+        "d": "2026-11-01"
       }
     ],
     "titles": [
