@@ -189,7 +189,8 @@
       "MACE": "LT3",
       "SPEARMACE": "LT3",
       "OP": "LT3",
-      "ROCKETMACE": "LT3"
+      "ROCKETMACE": "LT3",
+      "CRYSTALPVP": "HT5"
     },
     "history": [
       {
@@ -244,6 +245,12 @@
         "m": "ROCKETMACE",
         "f": null,
         "t": "LT3",
+        "d": "2026-11-01"
+      },
+      {
+        "m": "CRYSTALPVP",
+        "f": null,
+        "t": "HT5",
         "d": "2026-11-01"
       }
     ],
