@@ -1441,5 +1441,20 @@
         "d": "2026-11-01"
       }
     ]
+  },
+  {
+    "name": "NamePvPer",
+    "tiers": {
+      "MACE": "LT5"
+    },
+    "dh": "98fefdf93c4d8fd59f87859d714a9cf078835963f0e6a5c413ce7fcbfbc9eb1b",
+    "history": [
+      {
+        "m": "MACE",
+        "f": null,
+        "t": "LT5",
+        "d": "2026-11-01"
+      }
+    ]
   }
 ]
