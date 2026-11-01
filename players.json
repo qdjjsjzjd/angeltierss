@@ -1399,5 +1399,20 @@
         "d": "2026-11-01"
       }
     ]
+  },
+  {
+    "name": "Nikitos281",
+    "tiers": {
+      "NETHERSMP": "HT5"
+    },
+    "dh": "c3b7ec8f4ce23caf641e0480a30566a7b36137e221b4724da8f7734f406cfc97",
+    "history": [
+      {
+        "m": "NETHERSMP",
+        "f": null,
+        "t": "HT5",
+        "d": "2026-11-01"
+      }
+    ]
   }
 ]
