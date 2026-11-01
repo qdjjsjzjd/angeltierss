@@ -1384,5 +1384,20 @@
         "d": "2026-11-01"
       }
     ]
+  },
+  {
+    "name": "kvacek1",
+    "tiers": {
+      "MACE": "LT4"
+    },
+    "dh": "d9c2f903ba4e3997bac45dadebf1d401a8f05b1a84e1aa9730ca75c281eef3f8",
+    "history": [
+      {
+        "m": "MACE",
+        "f": null,
+        "t": "LT4",
+        "d": "2026-11-01"
+      }
+    ]
   }
 ]
