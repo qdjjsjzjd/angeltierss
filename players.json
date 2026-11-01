@@ -1331,5 +1331,20 @@
         "d": "2026-11-01"
       }
     ]
+  },
+  {
+    "name": "kaTLETKA",
+    "tiers": {
+      "SPEARMACE": "LT3"
+    },
+    "dh": "c114452c3ea33bdb2029cc749a46f1b81dfb79233c46184956b57672f162d45a",
+    "history": [
+      {
+        "m": "SPEARMACE",
+        "f": null,
+        "t": "LT3",
+        "d": "2026-11-01"
+      }
+    ]
   }
 ]
