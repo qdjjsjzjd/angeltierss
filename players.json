@@ -1139,7 +1139,8 @@
       "MACE": "LT3",
       "OP": "LT3",
       "UHC": "LT3",
-      "NETHERSMP": "LT3"
+      "NETHERSMP": "LT3",
+      "CREEPER": "LT3"
     },
     "history": [
       {
@@ -1168,6 +1169,12 @@
       },
       {
         "m": "NETHERSMP",
+        "f": null,
+        "t": "LT3",
+        "d": "2026-11-01"
+      },
+      {
+        "m": "CREEPER",
         "f": null,
         "t": "LT3",
         "d": "2026-11-01"
