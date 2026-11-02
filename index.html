@@ -186,6 +186,41 @@ h1{font-size:15px}.hh{font-size:26px;line-height:1.2}.sec{font-size:19px}.ps b{f
 .ped{font-size:34px}.pd .nm2{font-size:13px}
 .me{display:flex;align-items:center;gap:14px;margin:14px 0}.mav{width:64px;height:64px;border-radius:16px;flex:none;background:#101013}
 .mwide.dcb{background:#5865f2;color:#fff;font-weight:700}
+
+/* ===== REDESIGN v2 (небольшой) ===== */
+:root{--bg:#090a11;--card:#12141e;--line:#232739;--mu:#8e94ab;--cy:#7be8ff}
+body::before{background:radial-gradient(80% 45% at 50% -8%,rgba(245,185,66,.22),transparent 70%),radial-gradient(45% 30% at 100% 25%,rgba(123,232,255,.10),transparent 70%),radial-gradient(45% 35% at 0% 65%,rgba(150,100,255,.11),transparent 70%)}
+.topbar{position:sticky;top:0;z-index:30;background:rgba(9,10,17,.96);border-bottom:1px solid var(--line)}
+.mb{background:#161926;border:1px solid var(--line);border-radius:12px}
+.hero{border:1px solid transparent;border-radius:26px;background:linear-gradient(#10121b,#0c0d15) padding-box,linear-gradient(140deg,rgba(245,185,66,.75),rgba(123,232,255,.25) 45%,rgba(150,100,255,.4)) border-box}
+.hk{color:var(--cy)}
+.hs span{background:#161926;border-color:var(--line)}
+.jn{border-radius:14px;box-shadow:0 8px 22px -10px rgba(245,185,66,.8)}
+.tabs2{background:transparent;border:0;padding:0 0 4px;gap:8px}
+.tb{flex-direction:row;min-width:0;gap:8px;padding:9px 14px;border:1px solid var(--line);border-radius:999px;background:#12141e;font-size:13px;white-space:nowrap}
+.tb .ic{width:20px;height:20px}.tbe{font-size:16px;height:auto;line-height:1}
+.tb.on{background:var(--ac);border-color:var(--ac);color:#15120a;font-weight:700}
+.sec::before{content:"";width:4px;height:22px;border-radius:2px;background:linear-gradient(var(--ac),var(--cy))}
+.pc{border:1px solid transparent;border-radius:22px;background:linear-gradient(180deg,#151824,#10121b) padding-box,linear-gradient(135deg,rgba(245,185,66,.4),rgba(255,255,255,.04) 40%,rgba(123,232,255,.2)) border-box;box-shadow:0 14px 30px -18px #000}
+@media (hover:hover){.pc:hover{border-color:transparent;transform:translateY(-2px)}}
+.cc{background:#0b0c13;border-color:color-mix(in srgb,var(--tc) 75%,#000);box-shadow:0 0 14px -4px var(--tc)}
+.pod{position:relative;overflow:hidden;border-radius:24px;border:1px solid var(--line);padding:22px 8px 0;background:radial-gradient(70% 80% at 50% 0,rgba(245,185,66,.22),transparent 70%),#0e1019}
+.foot{border-radius:22px;background:linear-gradient(#10121b,#0c0d15) padding-box,linear-gradient(140deg,rgba(245,185,66,.5),rgba(123,232,255,.2)) border-box;border:1px solid transparent}
+.mc,.mp{border-radius:24px;background:#10121b}
+.tabs2{margin-bottom:8px}
+
+/* ===== админка: отдельный светлый «дашборд» ===== */
+#adm{position:relative;background:#f3f4fb;color:#1c1f2e;border:1px solid #c9cdf5;border-radius:20px;padding:44px 16px 16px;box-shadow:0 24px 60px -28px rgba(79,70,229,.8);font-family:Inter,Manrope,system-ui,sans-serif}
+#adm::before{content:"ADMIN PANEL";position:absolute;left:16px;top:14px;font:700 11px/1 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.2em;color:#fff;background:#4f46e5;padding:6px 10px;border-radius:8px}
+#adm>b{display:none}
+#adm .mu,#adm .g label{color:#6b7090}
+#adm input,#adm select{background:#fff;color:#1c1f2e;border:1px solid #cfd3ee;border-radius:10px}
+#adm input::placeholder{color:#9aa0c4}
+#adm .b{background:#fff;color:#1c1f2e;border:1px solid #cfd3ee;border-radius:10px}
+#adm .b:hover{border-color:#4f46e5;color:#4f46e5}
+#adm #pb{background:#4f46e5!important;color:#fff!important;border-color:#4f46e5!important}
+#adm .ck{background:#fff;border:1px solid #cfd3ee}
+#adm #ps{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px}
 </style></head><body><div class="w">
 <div class="topbar"><h1><svg class="lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#1b1b1b"/><ellipse cx="32" cy="12" rx="14" ry="5" fill="none" stroke="#f5b942" stroke-width="3.5"/><path d="M16 53 32 21 48 53M23 41h18" fill="none" stroke="#f5b942" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/></svg><em>Angel<span>Tiers</span></em></h1><div class="hb"><button class="mb" id="sbtn" aria-label="Поиск">🔍</button><button class="mb" id="mbtn" aria-label="Меню">☰</button></div></div>
 <div class="hero"><div class="hk">MINECRAFT PVP · СНГ</div><div class="hh">Докажи свою<br><span>силу и власть</span></div><div class="hp">Рейтинг лучших PvP-игроков по режимам. Пройди тест, получи тир и поднимись в топ.</div><div class="hs" id="hs"></div><div class="hc"><button class="b jn" id="jb2">⚔️ Хочу в рейтинг</button><a class="hl2 dc" href="https://discord.gg/RZdtGK94A4" target="_blank" rel="noopener">💬 Discord</a><a class="hl2 tgl" href="https://t.me/angeltierlist" target="_blank" rel="noopener">✈️ Telegram</a></div></div>
